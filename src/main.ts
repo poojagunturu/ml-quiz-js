@@ -36,7 +36,7 @@ const questions: Question[] = [
 const answers: Answer[] = [];
 let isTransitioning = false;
 
-const path = "./my_model/";
+const path = "/my_model/";
 
 function createQuestionSlide(question: Question): string {
   return `
